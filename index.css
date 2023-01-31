@@ -129,6 +129,11 @@ body {
   grid-area:Description;
 }
 
+.h1 {
+  padding: 0;
+  margin: 0;
+}
+
 
   @media screen and (max-width: 600) {
     .myWork {
