@@ -52,6 +52,20 @@ body {
     padding-right: 25px;
 }
 
+.item1 {
+  grid-area: Picture1;
+}
+
+.item2 {
+  grid-area: Description;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: "item1" "item2";
+
+}
+
 .flexContainer {
     display: flex;
     flex-direction: row;
@@ -71,16 +85,6 @@ body {
   "Picture1 Picture2"
   
 }
-
-
-.mySkills {
-    text-align: center;
-}
-
-.workGrid {
-    display: grid;
-}
-
 
 .footer {
    background-color: #373738;
