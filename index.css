@@ -132,6 +132,7 @@ body {
 .h1 {
   padding: 0;
   margin: 0;
+
 }
 
 
@@ -146,7 +147,8 @@ body {
       "Description"
       "Picture1"
       "Description2"
-      "Picture2";
+      "Picture2"
+      "logo";
     }
 }
 
